@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Songbird</title>
+    <link href="./../../assets/styles/buttons.css" rel="stylesheet">
+    <link href="./../../assets/styles/header.css" rel="stylesheet">
+    <link href="./../../assets/styles/footer.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./media_query.css" rel="stylesheet">
+</head>
+<body class="body">
+<div class="content-page">
+    <header class="header">
+        <div class="logo header__logo">
+            <a class="logo__link" href="./../start_page/index.html">
+                <img class="logo__image" src="./../../assets/icons/gull-bird-flying-shape.png" alt="logo">
+                <p class="logo__text">song<span class="logo__text logo__text-color">bird</span></p>
+            </a>
+        </div>
+        <div class="score">
+            <p class="score__title">Score:</p>
+            <p class="score__number">0</p>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section section__panel-question">
+            <div class="panel-question__wrap">
+                <div class="panel-question__theme">Разминка</div>
+                <div class="panel-question__theme">Воробьиные</div>
+                <div class="panel-question__theme">Лесные птицы</div>
+                <div class="panel-question__theme">Певчие птицы</div>
+                <div class="panel-question__theme">Хищные птицы</div>
+                <div class="panel-question__theme">Морские птицы</div>
+            </div>
+        </section>
+        <section class="section section__result">
+            <h2 class="result__title">Поздравляем!</h2>
+            <p class="result__description">Вы прошли викторину и набрали <span class="score__number">0</span> из <span
+                    class="score__total">30</span> возможных баллов</p>
+        </section>
+        <a class="content-page__link" href="./../quiz/index.html">
+            <div class="button button__square button__color">Попробовать еще раз!</div>
+        </a>
+    </main>
+    <footer class="footer">
+        <div class="social-media">
+            <a class="social-media__link" href="https://github.com/Kavume" target="_blank">
+                <img class="social-media__link-icon" src="./../../assets/icons/github.png" alt="github">
+                <p class="social-media__link-name">Kavume</p>
+            </a>
+        </div>
+        <p class="footer__text">2022</p>
+        <div class="footer__info">
+            <div class="footer__info-logo">
+                <a class="info-logo__link" href="https://rs.school/js/" target="_blank">
+                    <img class="info-logo__image" src="./../../assets/icons/rs_school_js.svg" alt="rs_school">
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

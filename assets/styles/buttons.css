@@ -1,0 +1,54 @@
+.button__square {
+    max-width: 1160px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #222323;
+    border: 1px solid #383939;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button__color {
+    background-color: #169890;
+}
+
+.button__color:hover {
+    background-color: #027670;
+}
+
+.player__button, .variant-player__button {
+    border: none;
+    background: transparent;
+}
+
+.player__button-image {
+    width: 40px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.variant-player__button-image {
+    width: 36px;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.player__button-image.start {
+    opacity: 50%;
+}
+
+.player__button:focus {
+    outline: 0;
+}
+
+.button-wrap {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 24px;
+}

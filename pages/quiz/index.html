@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Songbird</title>
+    <link href="./../../assets/styles/buttons.css" rel="stylesheet">
+    <link href="./../../assets/styles/header.css" rel="stylesheet">
+    <link href="./../../assets/styles/footer.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <link href="./media_query.css" rel="stylesheet">
+</head>
+<body class="body">
+<div class="content-page">
+    <header class="header">
+        <div class="logo header__logo">
+            <a class="logo__link" href="./../start_page/index.html">
+                <img class="logo__image" src="./../../assets/icons/gull-bird-flying-shape.png" alt="logo">
+                <p class="logo__text">song<span class="logo__text logo__text-color">bird</span></p>
+            </a>
+        </div>
+        <div class="score">
+            <p class="score__title">Score:</p>
+            <p class="score__number">0</p>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section section__panel-question">
+            <div class="panel-question__wrap">
+                <div data-id="0" class="panel-question__theme active">Разминка</div>
+                <div data-id="1" class="panel-question__theme">Воробьиные</div>
+                <div data-id="2" class="panel-question__theme">Лесные птицы</div>
+                <div data-id="3" class="panel-question__theme">Певчие птицы</div>
+                <div data-id="4" class="panel-question__theme">Хищные птицы</div>
+                <div data-id="5" class="panel-question__theme">Морские птицы</div>
+            </div>
+        </section>
+        <section class="section section__current-question">
+            <div class="current-question__image-wrap">
+                <img class="current-question__image image-default" src="./../../assets/images/default.jpg"
+                     alt="bird photo">
+            </div>
+            <div class="current-question__player-wrap">
+                <div class="wrap">
+                    <h2 class="player__title">******</h2>
+                    <div class="player__volume">
+                        <img class="player__volume-icon" src="./../../assets/icons/speaker-filled-audio-tool.png"
+                             alt="volume icon">
+                        <input class="player__input" type="range" min="1" max="100" value="80" onchange="setVolume()">
+                    </div>
+                </div>
+                <div class="player">
+                    <button class="player__button">
+                        <img class="player__button-image" src="./../../assets/icons/play-button.png" alt="play">
+                    </button>
+                    <div class="progress-line__wrap">
+                        <div class="progress-line"></div>
+                        <div class="current-time__wrap">
+                            <div class="current-time"></div>
+                            <div class="total-time"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="section section__panel-answers">
+            <div class="panel-answers__variant"></div>
+            <div class="panel-answers__variant-description-wrap">
+                <div class="variant-description__text-wrap">
+                    <p class="text">Послушайте плеер.</p>
+                    <p class="text">Выберите птицу из списка</p>
+                </div>
+            </div>
+        </section>
+        <div class="button button__square">Next Level</div>
+    </main>
+    <footer class="footer">
+        <div class="social-media">
+            <a class="social-media__link" href="https://github.com/Kavume" target="_blank">
+                <img class="social-media__link-icon" src="./../../assets/icons/github.png" alt="github">
+                <p class="social-media__link-name">Kavume</p>
+            </a>
+        </div>
+        <p class="footer__text">2022</p>
+        <div class="footer__info">
+            <div class="footer__info-logo">
+                <a class="info-logo__link" href="https://rs.school/js/" target="_blank">
+                    <img class="info-logo__image" src="./../../assets/icons/rs_school_js.svg" alt="rs_school">
+                </a>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="./birds.js"></script>
+<script src="./script.js"></script>
+</body>
+</html>

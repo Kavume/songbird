@@ -1,0 +1,128 @@
+@media screen and (max-width: 1200px) and (min-width: 1000px) {
+
+    .content-page {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 999px) and (min-width: 640px) {
+
+    .content-page {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+
+    .section__start {
+        padding: 20px 16px 0;
+    }
+
+    .panel-question__wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .dropdown-wrap {
+        padding: 0;
+        width: 50%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dropdown__content {
+        min-width: 50%;
+        margin-top: 46px;
+    }
+
+    .result__title {
+        font-size: 1.5rem;
+        margin-top: 12px;
+    }
+
+    .result__description {
+        font-size: 0.9rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 639px) and (min-width: 0px) {
+
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .content-page {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .section__start {
+        padding: 14px 12px 0;
+    }
+
+    .panel-question__wrap {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+    }
+
+    .dropdown-wrap {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dropdown__content {
+        min-width: 30%;
+        margin-top: 42px;
+    }
+
+    .panel-question__theme {
+        font-size: 0.8rem;
+    }
+
+    .dropdown__content {
+        width: 50%;
+    }
+
+    .result__title {
+        font-size: 1.4rem;
+        margin-top: 12px;
+    }
+
+    .result__description {
+        font-size: 0.8rem;
+        font-weight: lighter;
+        text-align: center;
+    }
+
+    .player-image-wrap {
+        width: 80px;
+        height: 80px;
+    }
+
+    .player-image {
+        width: 90px;
+        height: 140px;
+        object-fit: cover;
+        object-position: center center;
+    }
+
+    .footer {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
